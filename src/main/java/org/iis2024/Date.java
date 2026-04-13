@@ -86,4 +86,9 @@ public class Date {
       return false;
     }
   }
+
+  public void newMethod()
+  {
+     
+  }
 }
