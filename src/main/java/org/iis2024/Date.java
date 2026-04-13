@@ -20,11 +20,16 @@ public class Date {
   private final int month;
   private final int year;
 
+<<<<<<< HEAD
   public Date(int dia, int mes, int año) {
     this.day = dia;
     this.month = mes;
     this.year = año;
   }
+=======
+  private final int pelos;
+
+>>>>>>> a85795a446f5f6dce7ab73e9d89c0edc77d3b843
   /**
    * Retrieves the day component of this date.
    *
