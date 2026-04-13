@@ -20,6 +20,11 @@ public class Date {
   private final int month;
   private final int year;
 
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
   /**
    * Retrieves the day component of this date.
    *
@@ -87,6 +92,6 @@ public class Date {
 
   public void newMethod()
   {
-     
+
   }
 }
